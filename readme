@@ -69,4 +69,11 @@
 //para executar api local ctrl + c para execução do json-server
 //podemos dentro do package.json criar dentro da chave script "api-local": "json-server --watch backend/videos.json"
 // agora podemos rodar o projeto apenas usando npm run api-local
+
 //podemos tambem criar na mesma chave "checar-codigo": "eslint ." para que o eslint faça checagem e chamar pelo terminal npm run checar-codigo
+
+//axios == pacote para realizar requisições http
+//<script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script> colocar no index.html no head pois nao precisa carregar dom
+
+//instalando axios npm == npm install axios@1.6.0 -E // ele foi adicionado em dependecies pois precisa do codigo do axios em produção
+//se um pacote for necessario no funcionamento do nosso projeto no codigo ele sera uma dependencia de produção axios é um caso
