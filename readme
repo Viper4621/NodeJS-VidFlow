@@ -60,3 +60,13 @@
 //remover json-server global npm unistall -g json-server
 //dentro do package.json nas dependencias podemos mudar a versão trocando os numeros e depois dar npm install que ira atualziar de acordo
 // novamente vamos incializar o server npx json-server --watch backend/videos.json
+// versionamento 0(versão maior quando muda o pacote vai descontinuar recursos).0(versão menor novos recursos geralmente).0(geralmente alguma alteração de bugs)
+//existem guias de modificações para versoes ou as vezes não existem mais recursos de uma para outra
+//eslint "eslint": "^9.17.0", neste caso de versão e que a nossa sera compativel a versoes maiores
+//não e uma boa pratica em versoes usar o ^para evitar erros de versoes de acordo com usuario utilizando
+//sempre utilizar o npm install para atualizar versoes de acordo com as do projeto
+
+//para executar api local ctrl + c para execução do json-server
+//podemos dentro do package.json criar dentro da chave script "api-local": "json-server --watch backend/videos.json"
+// agora podemos rodar o projeto apenas usando npm run api-local
+//podemos tambem criar na mesma chave "checar-codigo": "eslint ." para que o eslint faça checagem e chamar pelo terminal npm run checar-codigo
