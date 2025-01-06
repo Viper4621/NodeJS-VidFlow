@@ -23,4 +23,6 @@
 //para fazer a migração para forma atual
 //agora sim npx eslint script.js vai funcionar e nos mostrar o erro de js dentro do terminal
 //podemos usar npx eslint . === vai fazer verificação em todos os arquivos js de nosso projeto e buscar erros caso de modules
+//para evitar erros de commits em pastas caso a extensão do github tenha sido instalada no vscode
+//criamos um arquivo .gitignore e dentro colocamos nossa pasta node_modules e salvamos para ignorar a pasta
 
