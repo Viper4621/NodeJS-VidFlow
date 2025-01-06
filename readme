@@ -25,4 +25,7 @@
 //podemos usar npx eslint . === vai fazer verificação em todos os arquivos js de nosso projeto e buscar erros caso de modules
 //para evitar erros de commits em pastas caso a extensão do github tenha sido instalada no vscode
 //criamos um arquivo .gitignore e dentro colocamos nossa pasta node_modules e salvamos para ignorar a pasta
+//git remote rm origin === remove o repositorio das referencias locais
+//caso mudarmos repositorio e desejar no mesmo arquivo mudar o destino do remote fazemos isso e depois damos novo git remote add origin url
+//ai sim depois nosso push para evitar erros
 
