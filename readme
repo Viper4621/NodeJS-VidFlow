@@ -1,0 +1,26 @@
+// node -v = versão do node instalada ou node --version 
+// pwd = path working directory = cmd não funciona seria path 
+// mkdir nome-arquivo === criar uma pasta com o nome usar este padrão para evitar conflito de leitura de arquivos
+// cd === change directory exemplo criou uma pasta de cd nome-arquivo para acessar 
+// cd .. === retorna a pasta anterior 
+// na pasta do arquivo podemos usar code . === executar o projeto em vscode 
+// no terminal dentro do vscode para executar o arquivo em node basta usar o terminal integrado e usar node e nome do arquivo.js
+
+// neste projeto vamos usar backend então temos que usar api local usando json server npm install json-server
+// json-server --watch backend/videos.json === aqui vamos buscar o arquivo de api local dentro da pasta para carregar 
+//com isso ele coloca nossa api local http://localhost:3000/videos onde temos acesso para trazer ao nosso projeto
+// npm = node pack manager
+//npm init = para instalar o gerenciador de pacotes para fazer uso de pacotes sempre temos que usar o comando para crriar nosso pacote
+//npm init === cria o pacote package.json
+// npm init @eslint/config@latest -- eslint para achar erros no codigo js
+// npm init @eslint/config@(0.4.6)  <=== versão de acordo ao video vamos escolher a opção de checar syntax e achar problemas
+//apos configurar de acordo com o que usamos no projeto
+//agora nosso package.json já tem nas dependencias o eslint e versão isso tambem serve para quando pegarmos projetos
+//vermos o que tem de dependencias para saber oq precisamos instalar de pacotes para executar o projeto
+// para usar eslint para buscar erros em algum arquivo podemos usar o comando
+//npx eslint nomearquivo.js
+//neste caso teve erro de acordo com documentação npx @eslint/migrate-config .eslintrc.json
+//para fazer a migração para forma atual
+//agora sim npx eslint script.js vai funcionar e nos mostrar o erro de js dentro do terminal
+//podemos usar npx eslint . === vai fazer verificação em todos os arquivos js de nosso projeto e buscar erros caso de modules
+
